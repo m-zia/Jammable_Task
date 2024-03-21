@@ -20,8 +20,9 @@ export default function Home() {
       <Main>
 
         <Banner></Banner>
+
         {/* 
-        <Socials></Socials>
+
         <Genres></Genres>
 <Promoted></Promoted>
 <Community></Community>

@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Socials from "./Socials"
 
 function Banner() {
   return (
@@ -17,10 +17,10 @@ function Banner() {
           <p className="px-2 text-xl font-semibold leading-loose [filter:drop-shadow(0_0_1rem_black)]">The #1 platform for making high quality AI covers in seconds!</p>
 
         </div>
-
+      
         </div>
       </div>
-
+    <Socials></Socials>
     </div>
 
 
