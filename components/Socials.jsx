@@ -8,8 +8,6 @@ function Socials() {
 
             <div class="mb-5 w-64 rounded-full bg-white pb-2 pt-3 shadow-lg relative mx-auto mt-14 hidden overflow-hidden md:block">
 
-                <p class="mb-1 text-center font-bold leading-tight text-black opacity-50">As seen on...</p>
-
                 <div class="mb-2 flex h-12 justify-center gap-3">
 
                     <Link href="https://www.youtube.com/@jammable" passHref>
@@ -50,6 +48,8 @@ function Socials() {
                     </Link>
 
                 </div>
+
+                <p class="mb-1 text-center leading-tight text-black opacity-40 text-xs">Voicify generated 100M+ views</p>
 
             </div>
 
