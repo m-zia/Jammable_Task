@@ -19,15 +19,18 @@ export default function Home() {
     <>
       <Main>
 
-        <Banner></Banner>
+        <Navbar></Navbar>
 
-        {/* 
+
+        <Banner></Banner>
+        <Socials></Socials>
+
 
         <Genres></Genres>
-<Promoted></Promoted>
-<Community></Community>
-<MoreVoices></MoreVoices>
-<Footer></Footer> */}
+        <Promoted></Promoted>
+        <Community></Community>
+        <MoreVoices></MoreVoices>
+        <Footer></Footer>
       </Main>
     </>
 
