@@ -2,24 +2,21 @@ import Image from "next/image"
 
 const Navbar = () => {
   return (
-    <nav className="bg-purple-800 flex items-center justify-between px-4 py-2 md:px-12">
+    <nav className="flex items-center justify-between px-4 py-2 md:px-12">
       <div className="flex items-center">
-        <Image src="/navIcon.png" width={50} height={50}/>
-        <span className="text-xl font-bold text-white pl-2">voicify</span>
+        <Image src="/navbar/navIcon.png" width={35} height={14}/>
+        <span className="text-xl font-black text-purple-800 pl-2">voicify</span>
       </div>
-      <div className="flex items-center space-x-4">
-        <a href="#" className="text-white hover:text-gray-200 px-3 py-2 rounded-md">Home</a>
-        <a href="#" className="text-white hover:text-gray-200 px-3 py-2 rounded-md">My Library</a>
-        <a href="#" className="text-white hover:text-gray-200 px-3 py-2 rounded-md">Community</a>
-        <a href="#" className="text-white hover:text-gray-200 px-3 py-2 rounded-md">Pricing</a>
-        <a href="#" className="text-white hover:text-gray-200 px-3 py-2 rounded-md">Contact</a>
-        
-        <div className="flex items-center">
-         
-          <div className="ml-2 text-white font-medium">32</div>
-        </div>
-        
+
+      <div className="flex items-center">
+        <Image src="/navbar/navLinks.png" width={684} height={32}/>
       </div>
+
+      <div className="flex items-center">
+        <Image src="/navbar/credits.png" width={84} height={46} className="pr-3"/>
+        <Image src="/navbar/userPic.png" width={40} height={40}/>
+      </div>
+
     </nav>
   )
 }
