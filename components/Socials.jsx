@@ -6,41 +6,40 @@ function Socials() {
     return (
         <div>
 
-            <div class="mb-5 w-64 rounded-full bg-white pb-2 pt-3 shadow-lg relative mx-auto mt-14 hidden overflow-hidden md:block">
+            <div className="mb-5 w-64 rounded-full bg-white pb-2 pt-3 shadow-lg relative mx-auto mt-14 hidden overflow-hidden md:block">
 
-                <div class="mb-2 flex h-12 justify-center gap-3">
-
-                    <Link href="https://www.youtube.com/@jammable" passHref>
-                        <Image
-                            src="https://www.jammable.com/_next/static/media/youtube.b460dc04.svg"
-                            alt="Youtube"
-                            width={50} 
-                            height={50} 
-                            loading="lazy"
-                            decoding="async"
-                            className="inline-block"
-                        />
-                    </Link>
+                <div className="mb-0 flex h-12 pt-3 justify-center gap-3">
 
                     <Link href="https://www.tiktok.com/@getjammable" passHref>
                         <Image
-                            src="https://www.jammable.com/_next/static/media/tiktok.2d577760.svg"
+                            src="/socials/tiktok.jpg"
                             alt="Tiktok"
-                            width={50} 
-                            height={50} 
+                            width={71.29}
+                            height={20.79}
                             loading="lazy"
                             decoding="async"
                             className="inline-block"
                         />
                     </Link>
 
+                    <Link href="https://www.youtube.com/@jammable" passHref>
+                        <Image
+                            src="/socials/youtube.jpg"
+                            alt="Youtube"
+                            width={82.62}
+                            height={23.21}
+                            loading="lazy"
+                            decoding="async"
+                            className="inline-block"
+                        />
+                    </Link>
 
                     <Link href="https://www.instagram.com/getjammable/" passHref>
                         <Image
-                            src="https://www.jammable.com/_next/static/media/instagram.60d493d9.svg"
+                            src="/socials/instagram.jpg"
                             alt="Instagram"
-                            width={50}
-                            height={50} 
+                            width={26}
+                            height={26}
                             loading="lazy"
                             decoding="async"
                             className="inline-block"
@@ -49,7 +48,7 @@ function Socials() {
 
                 </div>
 
-                <p class="mb-1 text-center leading-tight text-black opacity-40 text-xs">Voicify generated 100M+ views</p>
+                <p className="mb-3 text-center leading-tight text-black opacity-40 text-xs">Voicify generated 100M+ views</p>
 
             </div>
 
