@@ -4,6 +4,7 @@
 import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
+import Socials from '../components/Socials'
 import Genres from '../components/Genres';
 import Promoted from '../components/Promoted';
 import Community from '../components/Community';
@@ -17,13 +18,15 @@ export default function Home() {
 
     <>
       <Main>
-        <Navbar></Navbar>
+
         <Banner></Banner>
+        {/* 
+        <Socials></Socials>
         <Genres></Genres>
-        <Promoted></Promoted>
-        <Community></Community>
-        <MoreVoices></MoreVoices>
-        <Footer></Footer>
+<Promoted></Promoted>
+<Community></Community>
+<MoreVoices></MoreVoices>
+<Footer></Footer> */}
       </Main>
     </>
 

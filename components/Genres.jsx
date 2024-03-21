@@ -1,7 +1,7 @@
 
 function Genres() {
   return (
-    <div>Genres</div>
+    <div className="flex">Genres</div>
   )
 }
 

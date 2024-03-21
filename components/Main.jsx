@@ -1,7 +1,7 @@
 
 function Main({children}) {
   return (
-    <div className="flex content-center justify-center w-full tw-mx-auto tw-w-full tw-max-w-[1400px] tw-p-2 tw-pt-24">
+    <div className="flex content-center justify-center mx-auto w-full max-w-[1400px] pr-6 pl-6 pt-24">
     {children}
     </div>
   )
