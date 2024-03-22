@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const Card = ({ title, text, image }) => {
+const PromotedCard = ({ title, text, image}) => {
   return (
 
     <div className="w-full rounded overflow-hidden shadow-md mb-4 relative">
@@ -30,4 +30,4 @@ const Card = ({ title, text, image }) => {
   );
 };
 
-export default Card;
+export default PromotedCard;

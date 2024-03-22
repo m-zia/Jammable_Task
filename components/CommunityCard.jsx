@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const CommunityCard = ({ title, text, image, icon }) => {
+const CommunityCard = ({ title, text, image}) => {
   return (
     
     <div className="w-full rounded overflow-hidden shadow-md mb-4 relative">
@@ -27,7 +27,7 @@ const CommunityCard = ({ title, text, image, icon }) => {
         <div className='flex items-center capitalize'>
             <div className='mr-1'>
                 <Image
-                    src={icon}
+                    src={"/headIcon.png"}
                     width={24}
                     height={24}
                     layout="fixed"
@@ -39,9 +39,6 @@ const CommunityCard = ({ title, text, image, icon }) => {
 
             </div>
         </div>
-
-
-
 
         <p className="mt-1 text-sm text-gray-400">{text}</p>
       </div>
