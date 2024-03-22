@@ -1,13 +1,10 @@
 import Card from './Card';
+import CommunityTitle from '../components/CommunityTitle'
 
 function Community() {
   return (
     <>
-
-      <div className=''>
-        <p className='text-6xl leading-10 pb-5 pt-9'>Community</p>
-
-      </div>
+      <CommunityTitle />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <Card title="Card 1" text="Some content" image="/Goku.png" />

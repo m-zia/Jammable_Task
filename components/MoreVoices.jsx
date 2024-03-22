@@ -1,12 +1,12 @@
 import Card from './Card';
+import Image from "next/image"
+import MoreVoiceTitles from "./MoreVoicesTitle"
 
 function MoreVoices() {
   return (
     <>
 
-    <div className='capitalize'>
-      <p className='text-6xl leading-10 pb-5 pt-9'>More Voices</p>
-    </div>
+    <MoreVoiceTitles />
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       <Card title="Card 1" text="Some content" image="/Goku.png" />

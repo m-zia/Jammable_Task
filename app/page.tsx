@@ -12,25 +12,21 @@ import MoreVoices from '../components/MoreVoices';
 import Footer from '../components/Footer';
 
 
-
 export default function Home() {
   return (
 
     <>
       <Main>
 
-        <Navbar></Navbar>
+        <Navbar />
+        <Banner />
+        <Socials />
+        <Genres />
+        <Promoted />
+        <Community />
+        <MoreVoices />
+        <Footer />
 
-
-        <Banner></Banner>
-        <Socials></Socials>
-
-
-        <Genres></Genres>
-        <Promoted></Promoted>
-        <Community></Community>
-        <MoreVoices></MoreVoices>
-        <Footer></Footer>
       </Main>
     </>
 
