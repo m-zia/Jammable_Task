@@ -1,8 +1,8 @@
 import Image from "next/image"
 
-const Card = ({ title, text, image, icon }) => {
+const CommunityCard = ({ title, text, image, icon }) => {
   return (
-
+    
     <div className="w-full rounded overflow-hidden shadow-md mb-4 relative">
 
       <div className="relative">
@@ -23,11 +23,30 @@ const Card = ({ title, text, image, icon }) => {
       </div>
 
       <div className="p-4">
-        <h5 className="text-xl font-bold tracking-tight text-gray-900">{title}</h5>
+
+        <div className='flex items-center capitalize'>
+            <div className='mr-1'>
+                <Image
+                    src={icon}
+                    width={24}
+                    height={24}
+                    layout="fixed"
+                    priority
+                />
+            </div>
+            <div className='flex items-center'>
+                <h5 className="text-xl font-bold tracking-tight text-gray-900">{title}</h5>
+
+            </div>
+        </div>
+
+
+
+
         <p className="mt-1 text-sm text-gray-400">{text}</p>
       </div>
     </div>
   );
 };
 
-export default Card;
+export default CommunityCard;
