@@ -6,14 +6,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Page is broken down into 8 main components to represent each section
 
 ```bash
-    <Navbar />
-    <Banner />
-    <Socials />
-    <Genres />
-    <Promoted />
-    <Community />
-    <MoreVoices />
-    <Footer />
+Navbar 
+Banner 
+Socials 
+Genres 
+Promoted 
+Community 
+MoreVoices 
+Footer 
 ```
 
 ## Getting Started
