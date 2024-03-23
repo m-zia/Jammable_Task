@@ -24,7 +24,7 @@ const Footer = () => {
             <p className="mt-2 text-sm text-gray-400">Voicify AI LTD</p>
 
           </div>
-          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center md-max:hidden">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none leading-7">
                 <li>
@@ -110,7 +110,7 @@ const Footer = () => {
         </div>
         <div className="">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p className="text-gray-400 text-sm text-center sm:text-left">Keep rocking & sing your song.</p>
+            <p className="text-gray-400 text-sm text-left lg-max:text-center ">Keep rocking & sing your song.</p>
 
 
           </div>

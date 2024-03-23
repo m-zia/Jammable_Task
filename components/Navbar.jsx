@@ -5,10 +5,10 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-4 py-2 md:px-12">
       <div className="flex items-center">
         <Image src="/navbar/navIcon.png" width={35} height={14}/>
-        <span className="text-xl font-black text-purple-800 pl-2">voicify</span>
+        <span className="text-xl font-black text-purple-800 pl-2 lg-max:hidden">voicify</span>
       </div>
 
-      <div className="flex items-center lg-max:hidden">
+      <div className="flex items-center ">
         <Image src="/navbar/navLinks.png" width={684} height={32}/>
       </div>
 

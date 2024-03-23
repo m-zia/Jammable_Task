@@ -8,8 +8,8 @@ function CommunityTitle() {
                     src={"/community/heart.gif"}
                     width={72}
                     height={72}
-                    layout="fixed"
-                    priority
+                    layout="fixed" // Ensure fixed dimensions for proper alignment
+                    priority // Optionally prioritize loading for initial content
                 />
             </div>
             <div className='flex items-center'>
