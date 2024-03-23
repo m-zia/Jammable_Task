@@ -16,6 +16,8 @@ MoreVoices
 Footer 
 ```
 
+This structure can be seen in the main page located in app/page.tsx 
+
 ## Getting Started
 
 First, run the development server:

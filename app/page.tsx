@@ -1,6 +1,3 @@
-//import Image from "next/image";
-
-//import Button from '../components/button';
 import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
@@ -14,7 +11,6 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-
     <>
       <Main>
         <Navbar />
@@ -27,9 +23,5 @@ export default function Home() {
       </Main>
       <Footer />
     </>
-
-
-
-
   );
 }
