@@ -5,7 +5,7 @@ function CommunityTitle() {
         <div className='flex items-center capitalize pt-24 pb-5'>
             <div className='mr-5'>
                 <Image
-                    src={"/heart.gif"}
+                    src={"/community/heart.gif"}
                     width={72}
                     height={72}
                     layout="fixed"

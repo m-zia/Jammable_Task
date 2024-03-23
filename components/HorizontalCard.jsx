@@ -15,7 +15,7 @@ function HorizontalCard() {
 
                     <div className="flex flex-col items-center">
                         <button className="bg-purple-800 text-white font-bold py-2 px-20 mt-[120px] rounded-lg flex items-center">
-                            <Image className="mr-2 h-6 w-6" src="/buttonLogo.png" width={50} height={50} />
+                            <Image className="mr-2 h-6 w-6" src="/promoted/buttonLogo.png" width={50} height={50} />
                             <p className="text-sm">Voicify Drizzy</p>
                         </button>
                     </div>

@@ -5,7 +5,7 @@ function MoreVoicesTitle() {
         <div className='flex items-center capitalize pt-24 pb-5'>
             <div className='mr-5'>
                 <Image
-                    src={"/VoicesIcon.gif"}
+                    src={"/moreVoices/VoicesIcon.gif"}
                     width={72}
                     height={72}
                     layout="fixed" // Ensure fixed dimensions for proper alignment
