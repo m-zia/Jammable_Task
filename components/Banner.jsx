@@ -4,7 +4,7 @@ import Socials from "./Socials"
 function Banner() {
   return (
 
-    <div className="hidden md:block w-full">
+    <div className="block w-full">
 
       <div className="relative overflow-hidden rounded-3xl text-center text-white">
 

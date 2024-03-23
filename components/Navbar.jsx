@@ -8,7 +8,7 @@ const Navbar = () => {
         <span className="text-xl font-black text-purple-800 pl-2">voicify</span>
       </div>
 
-      <div className="flex items-center">
+      <div className="flex items-center lg-max:hidden">
         <Image src="/navbar/navLinks.png" width={684} height={32}/>
       </div>
 

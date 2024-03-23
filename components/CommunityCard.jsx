@@ -22,7 +22,7 @@ const CommunityCard = ({ title, text, image}) => {
         />
       </div>
 
-      <div className="p-4">
+      <div className="pt-4 pb-4 pl-0">
 
         <div className='flex items-center capitalize'>
             <div className='mr-1'>

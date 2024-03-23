@@ -22,7 +22,7 @@ const Card = ({ title, text, image }) => {
         />
       </div>
 
-      <div className="p-4">
+      <div className="pt-4 pb-4 pl-1">
         <h5 className="text-xl font-bold tracking-tight text-gray-900">{title}</h5>
         <p className="mt-1 text-sm text-gray-400">{text}</p>
       </div>
