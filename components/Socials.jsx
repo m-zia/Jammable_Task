@@ -6,7 +6,7 @@ function Socials() {
     return (
         <div>
 
-            <div className="mb-5 w-64 rounded-full bg-white pb-2 pt-3 shadow-lg relative mx-auto -mt-12 hidden overflow-hidden md:block">
+            <div className="mb-5 w-64 rounded-full bg-white pb-2 pt-3 shadow-lg relative mx-auto -mt-12 overflow-hidden block">
 
                 <div className="mb-0 flex h-12 pt-3 justify-center gap-3">
 

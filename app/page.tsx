@@ -17,7 +17,6 @@ export default function Home() {
 
     <>
       <Main>
-
         <Navbar />
         <Banner />
         <Socials />
@@ -25,9 +24,8 @@ export default function Home() {
         <Promoted />
         <Community />
         <MoreVoices />
-        <Footer />
-
       </Main>
+      <Footer />
     </>
 
 

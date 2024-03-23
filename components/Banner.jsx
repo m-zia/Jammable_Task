@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Socials from "./Socials"
 
 function Banner() {
   return (

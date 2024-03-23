@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
 
 
-      <footer className="text-gray-600 body-font">
+      <footer className="text-gray-600 body-font mx-auto w-full max-w-[1400px] pr-6 pl-6">
         <div className="container px-1 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <div className="flex items-center pl-16 md:pl-0">
