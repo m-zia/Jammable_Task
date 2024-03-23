@@ -20,13 +20,12 @@ function HorizontalCard() {
                 </div>
             </div>
 
-            <div className="h-[277px] w-2/3 flex-none bg-cover rounded-t rounded-r-lg text-center overflow-hidden">
-                <div className="relative">
+            <div className="w-2/3 flex-none bg-cover rounded-t rounded-r-lg text-center overflow-hidden">
+                <div className="relative w-full h-[277px]">
                     <Image
                         className="w-full h-full object-cover rounded-r-lg"
                         src={"/promoted/drake2.png"}
-                        width={0}
-                        height={0}
+                        layout="fill"
                         sizes="100vw"
                     />
                     <Image
