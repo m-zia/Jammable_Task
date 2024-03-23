@@ -5,7 +5,7 @@ const Card = ({ title, text, image }) => {
     <div className="w-full rounded overflow-hidden mb-4 relative">
       <div className="relative">
         <Image
-          className="w-full h-48 object-cover rounded-lg"
+          className="w-full h-60 object-cover rounded-3xl"
           src={image}
           width={0}
           height={0}
@@ -13,7 +13,7 @@ const Card = ({ title, text, image }) => {
         />
 
         <Image
-          className="absolute top-2 right-2 h-6 w-6 object-contain z-30"
+          className="absolute top-5 right-5 h-6 w-6 object-contain z-30"
           src={"/heart.png"}
           width={5}
           height={5}

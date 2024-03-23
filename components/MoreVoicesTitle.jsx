@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function MoreVoicesTitle() {
     return (
-        <div className='flex items-center capitalize pt-24 pb-5'>
+        <div className='flex items-center pt-24 pb-5'>
             <div className='mr-5'>
                 <Image
                     src={"/moreVoices/VoicesIcon.gif"}

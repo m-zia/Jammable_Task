@@ -2,17 +2,17 @@ import Image from "next/image"
 
 const PromotedCard = ({ title, text, image }) => {
   return (
-    <div className="w-full rounded overflow-hidden shadow-md mb-4 relative">
+    <div className="w-full rounded-3xl overflow-hidden border-b border-l border-r mb-4 relative">
       <div className="relative">
         <Image
-          className="w-full h-48 object-cover rounded-t-lg"
+          className="w-full h-60 object-cover rounded-t-3xl"
           src={image}
           width={0}
           height={0}
           sizes="100vw"
         />
         <Image
-          className="absolute top-2 right-2 h-6 w-6 object-contain z-30"
+          className="absolute top-5 right-5 h-6 w-6 object-contain z-30"
           src={"/heart.png"}
           width={5}
           height={5}
