@@ -3,12 +3,30 @@ import Image from "next/image"
 
 function HorizontalCard() {
     return (
-        <div class="max-w-sm w-full lg:max-w-full lg:flex">
-            <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
+        <div class="w-full h-[277px] max-w-full lg:flex">
+
+
+            <div class="border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-l-lg p-4 flex flex-col justify-between leading-normal w-1/3">
+                <div class="mb-8">
+                    <div className="p-1">
+                        <h5 className="text-4xl font-medium tracking-tight text-gray-900 leading-10 pb-1">Drizzy</h5>
+                        <p className="mt-1 text-sm text-gray-400">45K uses · 1K likes</p>
+                    </div>
+
+                    <div className="flex flex-col items-center">
+                        <button className="bg-purple-800 text-white font-bold py-2 px-20 mt-[120px] rounded-lg flex items-center">
+                            <Image className="mr-2 h-6 w-6" src="/buttonLogo.png" width={50} height={50} />
+                            <p className="text-sm">Voicify Drizzy</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-[277px] w-2/3 flex-none bg-cover rounded-t rounded-r-lg text-center overflow-hidden">
                 <div className="relative">
                     <Image
-                        className="w-full h-full object-cover rounded-lg"
-                        src={"/Goku.png"}
+                        className="w-full h-full object-cover rounded-r-lg"
+                        src={"/promoted/drake2.png"}
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -23,19 +41,7 @@ function HorizontalCard() {
                 </div>
             </div>
 
-            <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                    <p class="text-sm text-gray-600 flex items-center">
-                        <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                            <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-                        </svg>
-                        Members only
-                    </p>
-                    <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
-                    <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-                </div>
 
-            </div>
         </div>
     )
 }
