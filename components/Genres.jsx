@@ -1,10 +1,34 @@
-import Image from "next/image"
+import Image from "next/image";
+import GenresBadge from "./GenresBadge";
 
 function Genres() {
   return (
-    <div className="flex items-center justify-center pt-5 pb-11">
-      <Image src="/genres/genres.png" width={927} height={40} className="mx-auto" />
-    </div>
+
+    <>
+      <div className="flex gap-2 pt-4 pb-9 flex-wrap sm:justify-center">
+
+      
+      
+      <GenresBadge image="/Goku.png" text="Music"/>
+
+      <GenresBadge image="/Goku.png" text="Cartoon"/>
+      <GenresBadge image="/Goku.png" text="Anime"/>
+      <GenresBadge image="/Goku.png" text="Gaming"/>
+      <GenresBadge image="/Goku.png" text="German"/>
+      <GenresBadge image="/Goku.png" text="Korean"/>
+
+      <GenresBadge image="/Goku.png" text="French"/>
+
+      <GenresBadge image="/Goku.png" text="Public Figure"/>
+
+
+      </div>
+    </>
+
+
+
+
+
   )
 }
 
