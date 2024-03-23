@@ -1,15 +1,13 @@
 import Image from "next/image"
 
-
 const Footer = () => {
   return (
-    <div className="">
+    <div>
       <div className="flex items-center pt-5">
         <div className="flex-1 border-t-2 border-gray-200"></div>
 
         <div className="flex-1 border-t-2 border-gray-200"></div>
       </div>
-
 
       <footer className="text-gray-600 body-font mx-auto w-full max-w-[1400px] pr-6 pl-6">
         <div className="container px-1 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
@@ -18,12 +16,10 @@ const Footer = () => {
               <Image src="/navbar/navIcon.png" width={35} height={14} />
               <span className="text-xl font-black text-purple-800 pl-2">voicify</span>
             </div>
-
-
             <p className="mt-2 text-sm text-gray-400">© Copyright 2023</p>
             <p className="mt-2 text-sm text-gray-400">Voicify AI LTD</p>
-
           </div>
+
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center md-max:hidden">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none leading-7">
@@ -41,6 +37,7 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
+
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none leading-7">
                 <li>
@@ -70,9 +67,9 @@ const Footer = () => {
                 <li>
                   <a href="#" className="text-gray-400 hover:text-purple-800">Refund Policy</a>
                 </li>
-
               </nav>
             </div>
+
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none leading-7">
                 <li>
@@ -104,15 +101,12 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-
-
           </div>
         </div>
-        <div className="">
+
+        <div>
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-400 text-sm text-left lg-max:text-center ">Keep rocking & sing your song.</p>
-
-
           </div>
         </div>
       </footer>

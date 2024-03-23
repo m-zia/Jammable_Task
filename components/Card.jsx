@@ -2,9 +2,7 @@ import Image from "next/image"
 
 const Card = ({ title, text, image }) => {
   return (
-
     <div className="w-full rounded overflow-hidden mb-4 relative">
-
       <div className="relative">
         <Image
           className="w-full h-48 object-cover rounded-lg"

@@ -1,15 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-
 function Socials() {
     return (
         <div>
-
             <div className="mb-5 w-64 rounded-full bg-white pb-2 pt-3 shadow-lg relative mx-auto -mt-12 overflow-hidden block">
-
                 <div className="mb-0 flex h-12 pt-3 justify-center gap-3">
-
                     <Link href="https://www.tiktok.com/@getjammable" passHref>
                         <Image
                             src="/socials/tiktok.jpg"
@@ -45,13 +41,10 @@ function Socials() {
                             className="inline-block"
                         />
                     </Link>
-
                 </div>
 
                 <p className="mb-3 text-center leading-tight text-black opacity-40 text-xs">Voicify generated 100M+ views</p>
-
             </div>
-
         </div>
     )
 }

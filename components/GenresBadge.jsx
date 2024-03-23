@@ -11,7 +11,6 @@ function GenresBadge({ image, text }) {
                         width={30}
                         height={30}
                     />
-
                     <span>{text}</span></div>
             </div>
         </>

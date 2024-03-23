@@ -1,10 +1,8 @@
 import Image from "next/image"
 
-const PromotedCard = ({ title, text, image}) => {
+const PromotedCard = ({ title, text, image }) => {
   return (
-
     <div className="w-full rounded overflow-hidden shadow-md mb-4 relative">
-
       <div className="relative">
         <Image
           className="w-full h-48 object-cover rounded-t-lg"
@@ -13,7 +11,6 @@ const PromotedCard = ({ title, text, image}) => {
           height={0}
           sizes="100vw"
         />
-
         <Image
           className="absolute top-2 right-2 h-6 w-6 object-contain z-30"
           src={"/heart.png"}

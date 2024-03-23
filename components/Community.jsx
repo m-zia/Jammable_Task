@@ -1,8 +1,5 @@
-
 import CommunityTitle from '../components/CommunityTitle'
-
 import CommunityCard from '../components/CommunityCard'
-
 
 function Community() {
   return (
@@ -17,7 +14,6 @@ function Community() {
       </div>
 
     </>
-
   )
 }
 
