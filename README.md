@@ -18,6 +18,10 @@ Footer
 
 This structure can be seen in the main page located in app/page.tsx 
 
+## Future Ideas
+
+- Incorporate a dark mode. Could do this via useContext.
+
 ## Getting Started
 
 First, run the development server:
