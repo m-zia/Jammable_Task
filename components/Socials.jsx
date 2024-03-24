@@ -14,7 +14,7 @@ function Socials() {
                             height={20.79}
                             loading="lazy"
                             decoding="async"
-                            className="inline-block"
+                            className="inline-block sm-max:pr-2"
                         />
                     </Link>
 
@@ -26,7 +26,7 @@ function Socials() {
                             height={23.21}
                             loading="lazy"
                             decoding="async"
-                            className="inline-block"
+                            className="inline-block sm-max:pr-2"
                         />
                     </Link>
 
@@ -38,7 +38,7 @@ function Socials() {
                             height={26}
                             loading="lazy"
                             decoding="async"
-                            className="inline-block"
+                            className="inline-block sm-max:pr-2"
                         />
                     </Link>
                 </div>

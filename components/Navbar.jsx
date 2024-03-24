@@ -15,31 +15,31 @@ const Navbar = () => {
 
       <div className="flex items-center fill-current text-grey-300 ">
         <HouseSVG className="lg-max:hidden" />
-        <span className="text-xl font-semibold text-black pl-2 pr-2 ">Home</span>
+        <span className="text-xl font-semibold text-black pl-2 pr-2 sm-max:text-lg">Home</span>
       </div>
 
       <div className="flex items-center fill-current text-white ">
         <VoiceSVG className="lg-max:hidden" />
-        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 sm-max:hidden">My Library</span>
+        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 sm-max:hidden sm-max:text-lg">My Library</span>
       </div>
 
       <div className="flex items-center fill-current text-white ">
         <HeadSVG className="lg-max:hidden" />
-        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 sm-max:hidden">Community</span>
+        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 sm-max:hidden sm-max:text-lg">Community</span>
       </div>
 
       <div className="flex items-center fill-current text-white ">
         <CoinSVG className="lg-max:hidden" />
-        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 ">Pricing</span>
+        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 sm-max:text-lg">Pricing</span>
       </div>
 
       <div className="flex items-center fill-current text-white ">
         <ArrowSVG className="lg-max:hidden" />
-        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 ">Contact</span>
+        <span className="text-xl font-semibold text-gray-400 pl-2 pr-2 sm-max:text-lg">Contact</span>
       </div>
 
       <div className="flex items-center">
-        <Image src="/navbar/credits.png" width={84} height={46} className="pr-3" alt="A coin dictating how many credits a user has remaining" />
+        <Image src="/navbar/credits.png" width={84} height={46} className="pr-3 sm-max:hidden" alt="A coin dictating how many credits a user has remaining" />
         <Image src="/navbar/userPic.png" width={40} height={40} alt="A profile picture of the user" />
       </div>
     </nav>

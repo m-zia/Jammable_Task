@@ -24,7 +24,7 @@ function HorizontalCard() {
                 <div className="relative w-full h-[324px]">
                     <Image
                         className="w-full h-full object-cover rounded-r-lg"
-                        src={"/promoted/drake2.png"}
+                        src={"/promoted/drake.png"}
                         layout="fill"
                         sizes="100vw"
                         alt="Drake"

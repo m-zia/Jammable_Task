@@ -5,7 +5,7 @@ const PromotedCard = ({ title, text, image }) => {
     <div className="w-full rounded-3xl overflow-hidden border-b border-l border-r mb-4 relative">
       <div className="relative">
         <Image
-          className="w-full h-60 object-cover rounded-t-3xl"
+          className="w-full h-60 sm-max:h-1/2 object-cover rounded-t-3xl"
           src={image}
           width={0}
           height={0}
@@ -13,7 +13,7 @@ const PromotedCard = ({ title, text, image }) => {
           alt="Image of AI Voice Character"
         />
         <Image
-          className="absolute top-5 right-5 h-6 w-6 object-contain z-30"
+          className="absolute top-5 right-5 h-6 w-6 object-contain z-30 sm-max:top-2 sm-max:right-2 sm-max:h-4"
           src={"/heart.png"}
           width={5}
           height={5}
