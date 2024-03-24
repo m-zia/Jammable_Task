@@ -4,7 +4,7 @@ import HorizontalCard from './HorizontalCard';
 const Promoted = () => {
     return (
         <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:hidden">
+            <div className="grid grid-cols-2 sm-max:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:hidden">
                 <PromotedCard title="Drizzy" text="45K uses · 1K likes" image="/promoted/drake2.png" alt="Drake" />
                 <PromotedCard title="Ariana" text="45K uses · 1K likes" image="/promoted/arianna.jpg" alt="Ariana"/>
                 <PromotedCard title="Ariana" text="45K uses · 1K likes" image="/promoted/arianna.jpg" alt="Ariana"/>

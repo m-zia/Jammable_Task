@@ -6,7 +6,7 @@ function MoreVoices() {
     <>
       <MoreVoiceTitles />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm-max:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <Card title="Michael" text="45K uses · 1K likes" image="/moreVoices/mj.png" />
         <Card title="Patrick" text="45K uses · 1K likes" image="/moreVoices/patrick.png" />
         <Card title="Taylor" text="45K uses · 1K likes" image="/moreVoices/taylor.png" />
