@@ -14,8 +14,8 @@ function CommunityTitle() {
                 />
             </div>
             <div className='flex items-center'>
-                <p className='text-5xl  text-black font-extrabold leading-10 pb-5 pt-9 md:text-6xl pr-3'>Community</p>
-                <p className='text-gray-400 font-semibold text-6xl leading-10 pb-5 pt-9 pl-3'>127</p>
+                <p className='text-5xl sm-max:text-3xl  text-black font-extrabold leading-10 pb-5 pt-9 md:text-6xl pr-3'>Community</p>
+                <p className='text-gray-400 font-semibold text-6xl sm-max:text-3xl leading-10 pb-5 pt-9 pl-3'>127</p>
             </div>
         </div>
     )
