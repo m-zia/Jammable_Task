@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div className="block w-full">
       <div className="relative overflow-hidden rounded-3xl text-center text-white">
-        <Image src="/navbar/banner.png" className="rounded-lg" fill={true} />
+        <Image src="/navbar/banner.png" className="rounded-lg" fill={true} alt="Vibrant mix of colours that make up the Banner Image" />
         <div className="relative">
 
           <div className="py-20 [filter:drop-shadow(0_0_2.5rem_black)]">

@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-4 py-2 md:px-12">
       <div className="flex items-center">
-        <Image src="/navbar/navIcon.png" width={35} height={14} />
+        <Image src="/navbar/navIcon.png" width={35} height={14} alt={"A purple navbar icon that looks like a sound wave"}/>
         <span className="text-xl font-black text-purple-800 pl-2 lg-max:pl-0 lg-max:hidden">voicify</span>
       </div>
 
@@ -39,8 +39,8 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center">
-        <Image src="/navbar/credits.png" width={84} height={46} className="pr-3" />
-        <Image src="/navbar/userPic.png" width={40} height={40} />
+        <Image src="/navbar/credits.png" width={84} height={46} className="pr-3" alt="A coin dictating how many credits a user has remaining" />
+        <Image src="/navbar/userPic.png" width={40} height={40} alt="A profile picture of the user" />
       </div>
     </nav>
   )

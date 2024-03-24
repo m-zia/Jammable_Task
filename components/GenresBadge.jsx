@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-function GenresBadge({ image, text }) {
+function GenresBadge({ image, text, altText }) {
     return (
         <>
             <div className="shrink-0">
@@ -10,6 +10,7 @@ function GenresBadge({ image, text }) {
                         src={image}
                         width={30}
                         height={30}
+                        alt={altText}
                     />
                     <span>{text}</span></div>
             </div>

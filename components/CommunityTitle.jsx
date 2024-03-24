@@ -8,6 +8,7 @@ function CommunityTitle() {
                     src={"/community/heart.gif"}
                     width={72}
                     height={72}
+                    alt="Gif of a heart"
                     layout="fixed" // Ensure fixed dimensions for proper alignment
                     priority // Optionally prioritize loading for initial content
                 />

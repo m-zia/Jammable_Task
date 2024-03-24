@@ -9,6 +9,7 @@ const Card = ({ title, text, image }) => {
           src={image}
           width={0}
           height={0}
+          alt="Image of AI Voice Character"
           sizes="100vw"
         />
 
@@ -17,6 +18,7 @@ const Card = ({ title, text, image }) => {
           src={"/heart.png"}
           width={5}
           height={5}
+          alt="favorite icon that looks like a heart"
         />
       </div>
 

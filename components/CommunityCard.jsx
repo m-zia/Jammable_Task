@@ -10,6 +10,7 @@ const CommunityCard = ({ title, text, image }) => {
           width={0}
           height={0}
           sizes="100vw"
+          alt="Image of AI Voice Character"
         />
 
         <Image
@@ -17,6 +18,7 @@ const CommunityCard = ({ title, text, image }) => {
           src={"/heart.png"}
           width={5}
           height={5}
+          alt="favorite icon that looks like a heart"
         />
       </div>
 
@@ -27,6 +29,7 @@ const CommunityCard = ({ title, text, image }) => {
               src={"/headIcon.png"}
               width={24}
               height={24}
+              alt="Small Head Icon"
               layout="fixed"
               priority
             />

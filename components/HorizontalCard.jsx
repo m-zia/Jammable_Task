@@ -13,7 +13,7 @@ function HorizontalCard() {
 
                     <div className="flex flex-col items-center">
                         <button className="bg-purple-800 text-white font-bold py-2 px-20 mt-[167px] rounded-xl flex items-center">
-                            <Image className="mr-2 h-6 w-6" src="/promoted/buttonLogo.png" width={50} height={50} />
+                            <Image className="mr-2 h-6 w-6" src="/promoted/buttonLogo.png" width={50} height={50} alt="Sound Wave Logo" />
                             <p className="text-sm">Voicify Drizzy</p>
                         </button>
                     </div>
@@ -27,12 +27,14 @@ function HorizontalCard() {
                         src={"/promoted/drake2.png"}
                         layout="fill"
                         sizes="100vw"
+                        alt="Drake"
                     />
                     <Image
                         className="absolute top-5 right-5 h-6 w-6 object-contain z-30"
                         src={"/heart.png"}
                         width={5}
                         height={5}
+                        alt="favorite icon that looks like a heart"
                     />
                 </div>
             </div>

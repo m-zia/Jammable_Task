@@ -10,12 +10,14 @@ const PromotedCard = ({ title, text, image }) => {
           width={0}
           height={0}
           sizes="100vw"
+          alt="Image of AI Voice Character"
         />
         <Image
           className="absolute top-5 right-5 h-6 w-6 object-contain z-30"
           src={"/heart.png"}
           width={5}
           height={5}
+          alt="favorite icon that looks like a heart"
         />
       </div>
 
